@@ -1,0 +1,79 @@
+{
+  "version": "0.4",
+  "title": "Steel.ee – Vihmaveesüsteemi hind (B2B)",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero",
+      "elType": "section",
+      "settings": { "layout": "boxed", "padding": { "top": 55, "bottom": 60 }, "background_color": "#F7F8FA" },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 60 },
+          "elements": [
+            { "elType": "widget", "widgetType": "heading", "settings": { "title": "Ehitusettevõttele kiire vihmaveesüsteemi eelarve", "tag": "h1" } },
+            { "elType": "widget", "widgetType": "text-editor", "settings": { "text": "Sisesta kogused ja saad orienteeruva hinna kohe. Sobib eelarvestamiseks ja pakkumiste koostamiseks." } },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "items": [
+                  { "text": "Sobib eelarvestamiseks", "icon": "fas fa-check" },
+                  { "text": "Mahuhinnad koostööpartnerile", "icon": "fas fa-check" },
+                  { "text": "Kiire tootmine ja tarne", "icon": "fas fa-check" },
+                  { "text": "Tootja otse – vähem vahendajaid", "icon": "fas fa-check" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "width": 40 },
+          "elements": [
+            { "elType": "widget", "widgetType": "shortcode", "settings": { "shortcode": "[steel_round_rain_calc]" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2b-benefits",
+      "elType": "section",
+      "settings": { "layout": "boxed", "padding": { "top": 45, "bottom": 45 }, "background_color": "#FFFFFF" },
+      "elements": [
+        { "elType": "column", "settings": { "width": 100 }, "elements": [
+          { "elType": "widget", "widgetType": "heading", "settings": { "title": "Miks ehitajad kasutavad kalkulaatorit?", "tag": "h2", "align": "center" } }
+        ]},
+        { "elType": "column", "settings": { "width": 25 }, "elements": [
+          { "elType": "widget", "widgetType": "icon-box", "settings": { "title_text": "Kiirem pakkumine", "description_text": "Vähem käsitööd – hind kohe.", "icon": "fas fa-bolt" } }
+        ]},
+        { "elType": "column", "settings": { "width": 25 }, "elements": [
+          { "elType": "widget", "widgetType": "icon-box", "settings": { "title_text": "Standardne loogika", "description_text": "Sama arvutus igal projektil.", "icon": "fas fa-layer-group" } }
+        ]},
+        { "elType": "column", "settings": { "width": 25 }, "elements": [
+          { "elType": "widget", "widgetType": "icon-box", "settings": { "title_text": "Mahuhinnad", "description_text": "Koostöö korral paremad tingimused.", "icon": "fas fa-handshake" } }
+        ]},
+        { "elType": "column", "settings": { "width": 25 }, "elements": [
+          { "elType": "widget", "widgetType": "icon-box", "settings": { "title_text": "Tootja otse", "description_text": "Otsekontakt ja kiirus.", "icon": "fas fa-industry" } }
+        ]}
+      ]
+    },
+    {
+      "id": "b2b-form",
+      "elType": "section",
+      "settings": { "layout": "boxed", "padding": { "top": 55, "bottom": 60 }, "background_color": "#F7F8FA" },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 100 },
+          "elements": [
+            { "elType": "widget", "widgetType": "heading", "settings": { "title": "Soovid mahuhinda või püsipartnerlust?", "tag": "h2", "align": "center" } },
+            { "elType": "widget", "widgetType": "text-editor", "settings": { "text": "Saada projekt/maht – kalkulaatori andmed on juba lisatud." } },
+            { "elType": "widget", "widgetType": "shortcode", "settings": { "shortcode": "[wpforms id=\"3019\"]" } }
+          ]
+        }
+      ]
+    }
+  ]
+}
