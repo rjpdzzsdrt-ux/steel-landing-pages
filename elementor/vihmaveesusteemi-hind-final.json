@@ -1,0 +1,230 @@
+{
+  "version": "0.4",
+  "title": "Steel.ee – Ümara vihmaveesüsteemi hind (final)",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": { "top": 70, "bottom": 80 },
+        "background_color": "var(--e-global-color-subtle)"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 55 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Saa vihmaveesüsteemi hind 60 sekundiga",
+                "tag": "h1",
+                "typography_font_size": { "unit": "px", "size": 46 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "text": "Sisesta räästa pikkused ja allatulekud – orienteeruv tootjahind kuvatakse kohe ekraanile, ilma kohustuseta.",
+                "typography_font_size": { "unit": "px", "size": 18 }
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "space_between": 10,
+                "items": [
+                  { "text": "Tootja otsehind, ilma vahendajata", "icon": "fas fa-check" },
+                  { "text": "Valmistame täpselt mõõdu järgi", "icon": "fas fa-check" },
+                  { "text": "Sobib eramajale ja ehitusobjektile", "icon": "fas fa-check" },
+                  { "text": "Tarne üle Eesti", "icon": "fas fa-check" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "width": 45 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[steel_round_rain_calc]"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "steps",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": { "top": 70, "bottom": 70 }
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kuidas see töötab?",
+                "tag": "h2",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "width": 33.33 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "1) Sisesta mõõdud",
+                "description_text": "Räästa pikkused ja allatulekud.",
+                "icon": "fas fa-ruler"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "width": 33.33 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "2) Näed hinda kohe",
+                "description_text": "Orienteeruv hind kuvatakse ekraanile.",
+                "icon": "fas fa-euro-sign"
+              }
+            }
+          ]
+        },
+        {
+          "elType": "column",
+          "settings": { "width": 33.33 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "3) Soovi korral täpsustame",
+                "description_text": "Jäta kontakt ainult siis, kui soovid lõpphinda ja tarneaega.",
+                "icon": "fas fa-clipboard-check"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "form",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": { "top": 80, "bottom": 80 },
+        "background_color": "var(--e-global-color-subtle)"
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Soovid täpset lõpphinda või tarneaega?",
+                "tag": "h2",
+                "align": "center"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "text": "Kalkulaatori andmed on juba lisatud. Täida ainult kontakt.",
+                "align": "center"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[wpforms id=\"3019\"]"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "faq",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": { "top": 70, "bottom": 90 }
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 100 },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "KKK",
+                "tag": "h2"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Kas hind sisaldab paigaldust?",
+                    "tab_content": "Ei. Kalkulaator annab orienteeruva tootjahinna materjalidele. Paigaldus sõltub objektist."
+                  },
+                  {
+                    "tab_title": "Kas mõõdud võivad olla mm või m?",
+                    "tab_content": "Jah. Võid sisestada mõõdud nii millimeetrites kui meetrites."
+                  },
+                  {
+                    "tab_title": "Kui kiiresti toodate?",
+                    "tab_content": "Täpsustame tarneaja päringu järel. Sageli saame reageerida kiiresti."
+                  },
+                  {
+                    "tab_title": "Kas sobib eramajale?",
+                    "tab_content": "Jah. Ümar vihmaveesüsteem sobib nii eramajale kui ka ehitusobjektile."
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
