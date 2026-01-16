@@ -1,0 +1,49 @@
+{
+  "version": "0.4",
+  "title": "Steel.ee – Vihmaveesüsteemi hind (A/B Variant)",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero",
+      "elType": "section",
+      "settings": { "layout": "boxed", "padding": { "top": 55, "bottom": 60 }, "background_color": "#F7F8FA" },
+      "elements": [
+        {
+          "elType": "column",
+          "settings": { "width": 60 },
+          "elements": [
+            { "elType": "widget", "widgetType": "heading", "settings": { "title": "Arvuta vihmaveesüsteemi hind kohe – ilma kontaktita", "tag": "h1" } },
+            { "elType": "widget", "widgetType": "text-editor", "settings": { "text": "Ei mingeid müügikõnesid. Sisestad mõõdud ja näed hinda kohe." } },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "items": [
+                  { "text": "Hind kohe ekraanil", "icon": "fas fa-check" },
+                  { "text": "Kontakti jätad ainult soovi korral", "icon": "fas fa-check" },
+                  { "text": "Tootja otsehind", "icon": "fas fa-check" },
+                  { "text": "Tarne üle Eesti", "icon": "fas fa-check" }
+                ]
+              }
+            }
+          ]
+        },
+        { "elType": "column", "settings": { "width": 40 }, "elements": [
+          { "elType": "widget", "widgetType": "shortcode", "settings": { "shortcode": "[steel_round_rain_calc]" } }
+        ]}
+      ]
+    },
+    {
+      "id": "form",
+      "elType": "section",
+      "settings": { "layout": "boxed", "padding": { "top": 55, "bottom": 60 }, "background_color": "#FFFFFF" },
+      "elements": [
+        { "elType": "column", "settings": { "width": 100 }, "elements": [
+          { "elType": "widget", "widgetType": "heading", "settings": { "title": "Täpsustame hinna ja tarneaja 24h jooksul", "tag": "h2", "align": "center" } },
+          { "elType": "widget", "widgetType": "text-editor", "settings": { "text": "Kalkulaatori andmed on juba lisatud – lisa ainult kontakt." } },
+          { "elType": "widget", "widgetType": "shortcode", "settings": { "shortcode": "[wpforms id=\"3019\"]" } }
+        ]}
+      ]
+    }
+  ]
+}
